@@ -1,6 +1,6 @@
 <?php
 	session_start();
-	include("./settings/connect_datebase.php");
+include("./settings/connect_datebase.php");
 	
 	if (isset($_SESSION['user'])) {
 		if($_SESSION['user'] != -1) {
